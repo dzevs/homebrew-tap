@@ -1,9 +1,8 @@
 # typed: false
 # frozen_string_literal: true
 
-# DRAFT Homebrew formula for zynk — NOT PUBLISHED. Binary (prebuilt) formula: downloads the v3.0.0
-# GitHub Release assets and installs the binary; no Rust/Zig build. Intended for a personal tap
-# (e.g. `dzevs/homebrew-tap`), so `brew install dzevs/tap/zynk`.
+# Homebrew formula for zynk — a binary (prebuilt) formula that downloads the v3.0.0 GitHub Release
+# assets and installs the binary (no Rust/Zig build). Install: `brew install dzevs/tap/zynk`.
 class Zynk < Formula
   desc "Terminal-native command center for AI agents"
   homepage "https://github.com/dzevs/zynk"
